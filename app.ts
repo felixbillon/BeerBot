@@ -16,7 +16,7 @@ let connector = new builder.ConsoleConnector().listen();
 let bot = new builder.UniversalBot(connector);
 
 // Create LUIS recognizer that points at our model and add it as the root '/' dialog for our Cortana Bot.
-let url = 'LUIS url';
+let url = 'LUIS_URL';
 let recognizer = new builder.LuisRecognizer(url);
 let intents = new builder.IntentDialog({ recognizers: [recognizer] });
 bot.dialog('/', intents);
