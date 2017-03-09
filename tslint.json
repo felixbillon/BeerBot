@@ -1,0 +1,22 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "quotemark": [true, "single"],
+    "trailing-comma": [true, {
+      "multiline": "never",
+      "singleline": "never"
+    }],
+    "max-line-length": [true, 150],
+    "object-literal-sort-keys": false,
+    "comment-format": [false],
+    "align": [false],
+    "ordered-imports": [false],
+    "max-classes-per-file": [false],
+    "class-name": false,
+    "member-access": [false],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+    "no-bitwise": false,
+    "no-console": [false],
+    "prefer-const": false
+  }
+}

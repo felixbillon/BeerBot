@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "bot-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^3.6.0",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "@types/restify": "^2.0.38"
+  },
+  "scripts": {
+    "start": "ts-node ./app.ts"
+  }
+}
