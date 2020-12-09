@@ -10,7 +10,7 @@
     "restify": "^4.3.0"
   },
   "devDependencies": {
-    "@types/node": "^7.0.5",
+    "@types/node": "^14.14.11",
     "@types/restify": "^2.0.38"
   },
   "scripts": {
