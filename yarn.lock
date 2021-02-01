@@ -8,15 +8,29 @@
   dependencies:
     "@types/node" "*"
 
+"@types/formidable@*":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@types/formidable/-/formidable-1.0.32.tgz#d9a7eefbaa995a4486ec4e3960e9552e68b3f33c"
+  dependencies:
+    "@types/node" "*"
+
 "@types/node@*", "@types/node@^7.0.5":
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.5.tgz#96a0f0a618b7b606f1ec547403c00650210bfbb7"
 
-"@types/restify@^2.0.38":
-  version "2.0.38"
-  resolved "https://registry.yarnpkg.com/@types/restify/-/restify-2.0.38.tgz#a5484e5d45d0f0bed8a76ee06580b5ec475ba57a"
+"@types/restify@^8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@types/restify/-/restify-8.5.0.tgz#b24d6c42df0e4f386ef285cf3b198a5852f39a09"
   dependencies:
     "@types/bunyan" "*"
+    "@types/formidable" "*"
+    "@types/node" "*"
+    "@types/spdy" "*"
+
+"@types/spdy@*":
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/@types/spdy/-/spdy-3.4.4.tgz#3282fd4ad8c4603aa49f7017dd520a08a345b2bc"
+  dependencies:
     "@types/node" "*"
 
 ansi-regex@^2.0.0:
