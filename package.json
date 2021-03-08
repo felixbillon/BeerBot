@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@types/node": "^7.0.5",
-    "@types/restify": "^2.0.38"
+    "@types/restify": "^8.5.1"
   },
   "scripts": {
     "start": "ts-node ./app.ts"
