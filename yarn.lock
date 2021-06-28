@@ -8,9 +8,9 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^7.0.5":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.5.tgz#96a0f0a618b7b606f1ec547403c00650210bfbb7"
+"@types/node@*", "@types/node@^15.12.5":
+  version "15.12.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.12.5.tgz#9a78318a45d75c9523d2396131bd3cca54b2d185"
 
 "@types/restify@^2.0.38":
   version "2.0.38"
